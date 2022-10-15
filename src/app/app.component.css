@@ -1,0 +1,41 @@
+ngmat-toolbar {
+    background-color: blue;
+    color: azure;
+    justify-content: center;
+}
+ mat-sidenav {
+    background-color:cornflowerblue;
+    color: aliceblue;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    padding:20px;
+    justify-content:center;
+    
+} 
+img {
+    height: 100px;
+    width: 100px;
+    object-fit:cover;
+    clip-path: circle();
+    
+}
+mat-divider {
+    background-color: aqua;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+mat-sidenav-content {
+    height: calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: lightgray;
+    display: flex;
+}
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+    
+}
